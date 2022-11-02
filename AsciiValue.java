@@ -10,3 +10,13 @@ class AsciiValue
         System.out.println("The Ascii Value of "+ch+" is "+n);
     }
 }
+
+
+
+/************************** OUTPUT ***********************************************************************************************************************************/
+
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac AsciiValue.java } ; if ($?) { java AsciiValue }
+Enter the character:
+c
+The Ascii Value of c is 99
+PS C:\Users\DELL\Documents\Java Programs>
