@@ -19,3 +19,11 @@ class Code
 		}
 	}
 }
+
+
+/******************************** OUTPUT *************************************************************************************************************************/
+
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac Code.java } ; if ($?) { java Code }
+1
+4 2
+2
