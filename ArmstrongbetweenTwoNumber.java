@@ -40,3 +40,17 @@ class ArmstrongbetweenTwoNumber
         }
     }
 }
+
+
+
+/************************** OUTPUT ***********************************************************************************************************************************/
+
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac ArmstrongbetweenTwoNumber.java } ; if ($?) { java ArmstrongbetweenTwoNumber }
+Enter The two numbers:
+100 500
+The Armstrong Numbers between 100 and 500 is:
+153
+370
+371
+407
+PS C:\Users\DELL\Documents\Java Programs> 
