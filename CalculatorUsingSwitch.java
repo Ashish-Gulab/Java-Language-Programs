@@ -32,3 +32,16 @@ class CalculatorUsingSwitch
         }
     }
 }
+
+
+/******************************** OUTPUT *************************************************************************************************************************/
+
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac CalculatorUsingSwitch.java } ; if ($?) { java CalculatorUsingSwitch }
+Enter the operator(+,-,*,/,%)
++
+Enter the first number:
+4
+Enter the second number:
+5
+The Addition of 4 and 5 is: 9
+PS C:\Users\DELL\Documents\Java Programs> 
