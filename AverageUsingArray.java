@@ -18,3 +18,14 @@ class AverageUsingArray
         System.out.println("The Average is: "+avg);
     }
 }
+
+
+/************************** OUTPUT ***********************************************************************************************************************************/
+
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac AverageUsingArray.java } ; if ($?) { java AverageUsingArray }
+Enter the number of Elements:
+6
+Enter the Elements:
+4 5 8 2 3 1
+The Average is: 3
+PS C:\Users\DELL\Documents\Java Programs> 
