@@ -28,3 +28,15 @@ class ArmstrongNumber
         }
     }
 }
+
+
+/************************** OUTPUT ***********************************************************************************************************************************/
+
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac ArmstrongNumber.java } ; if ($?) { java ArmstrongNumber }
+Enter the number:
+153
+153 is the Armstrong Number
+Enter the number:
+103
+103 is not the Armstrong Number
+PS C:\Users\DELL\Documents\Java Programs> 
