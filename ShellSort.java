@@ -43,3 +43,15 @@ class ShellSort
         }
     }
 }
+
+
+/****************** OUTPUT ***************************************************************************************************************************************/
+
+Enter the number of elements to be sorted:
+10
+Enter the elements of the array:
+6 7 3 4 1 7 9 4 3 2 
+The unsorted array is:
+6 7 3 4 1 7 9 4 3 2 
+The sorted Array is:
+1 2 3 3 4 4 6 7 7 9 
