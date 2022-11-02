@@ -47,6 +47,7 @@ class ShellSort
 
 /****************** OUTPUT ***************************************************************************************************************************************/
 
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\Sorting\" ; if ($?) { javac ShellSort.java } ; if ($?) { java ShellSort }
 Enter the number of elements to be sorted:
 10
 Enter the elements of the array:
@@ -55,3 +56,4 @@ The unsorted array is:
 6 7 3 4 1 7 9 4 3 2 
 The sorted Array is:
 1 2 3 3 4 4 6 7 7 9 
+PS C:\Users\DELL\Documents\Java Programs> 
