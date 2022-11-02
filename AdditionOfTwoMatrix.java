@@ -68,6 +68,7 @@ class AdditionOfTwoMatrix
 
 /*********************************** OUTPUT **************************************************************************************************************************/
 
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac AdditionOfTwoMatrix.java } ; if ($?) { java AdditionOfTwoMatrix }
 Enter the number of rows of the Matrix:
 3
 Enter the number of columns of the Matrix:
@@ -96,3 +97,4 @@ Addition is:
 5  5  9
 
 12 10 8
+PS C:\Users\DELL\Documents\Java Programs> 
