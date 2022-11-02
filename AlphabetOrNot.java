@@ -14,3 +14,11 @@ class AlphabetOrNot
         }
     }
 }
+
+/************************** OUTPUT ***********************************************************************************************************************************/
+
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac AlphabetOrNot.java } ; if ($?) { java AlphabetOrNot }
+Enter the character
+A
+The Character is Alphabet.
+PS C:\Users\DELL\Documents\Java Programs> 
