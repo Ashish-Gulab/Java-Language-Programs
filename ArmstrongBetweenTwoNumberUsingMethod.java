@@ -37,3 +37,18 @@ class ArmstrongBetweenTwoNumberUsingMethod
         }
     }
 }
+
+
+
+
+
+/************************** OUTPUT ***********************************************************************************************************************************/
+
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac ArmstrongBetweenTwoNumberUsingMethod.java } ; if ($?) { java ArmstrongBetweenTwoNumberUsingMethod }
+Enter the two numbers:
+100 500
+153
+370
+371
+407
+PS C:\Users\DELL\Documents\Java Programs> 
