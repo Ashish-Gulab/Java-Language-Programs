@@ -63,3 +63,36 @@ class AdditionOfTwoMatrix
         }
     }
 }
+
+
+
+/*********************************** OUTPUT **************************************************************************************************************************/
+
+Enter the number of rows of the Matrix:
+3
+Enter the number of columns of the Matrix:
+3
+Enter the elements of the First Matrix:
+5 6 8 2 4 7 8 5 1  
+The first Matrix is:
+5 6 8 
+
+2 4 7 
+
+8 5 1 
+
+Enter the elements of the second Matrix:
+5 6 2 3 1 2 4 5 7
+The second Matrix is:
+5 6 2 
+
+3 1 2 
+
+4 5 7
+
+Addition is:
+10 12 10
+
+5  5  9
+
+12 10 8
