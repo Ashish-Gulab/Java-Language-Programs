@@ -11,3 +11,14 @@ class AddNumbers
         System.out.println("The Sum is:"+(n1+n2));
     }
 }
+
+
+/********************************* OUTPUT **************************************************************************************************************************/
+
+PS C:\Users\DELL\Documents\Java Programs> cd "c:\Users\DELL\Documents\Java Programs\" ; if ($?) { javac AddNumbers.java } ; if ($?) { java AddNumbers }
+Enter the first number:
+4
+Enter the second number:
+6
+The Sum is:10
+PS C:\Users\DELL\Documents\Java Programs>
