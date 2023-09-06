@@ -1,32 +1,45 @@
 import java.util.Scanner;
-class PrimeBetweenTwoNumberUsingMethod
+
+class NumberAsASumOfTwoPrimeNumbers
 {
     public static void main(String[] args)
     {
         Scanner obj=new Scanner(System.in);
-        System.out.println("Enter the first number:");
-        int n1=obj.nextInt();
-        System.out.println("Enter the second number:");
-        int n2=obj.nextInt();
-        prime(n1,n2);
-    }
-
-    public static void prime(int n1,int n2)
-    {
-        int i,j;
-        for(i=n1;i<=n2;i++)
+        System.out.println("Enter the number:");
+        int n=obj.nextInt();
+        boolean primeNot=true;
+        for(int i=2;i<=n/2;i++)
         {
-            for(j=2;j<=i;j++)
+            if(primeNumber(i))
             {
-                if(i%j==0)
+                if(primeNumber(n-i))
                 {
-                    break;
+                    primeNot=false;
+                    System.out.println(i+" "+(n-i));
                 }
             }
-            if(i==j)
+        }
+        if(primeNot)
+        {
+            System.out.println("It cannot be write as a sum of two prime Numbers");
+        }
+    }
+
+    public static boolean primeNumber(int n)
+    {
+        boolean prime=true;
+        for(int i=2;i<=n/2;i++)
+        {
+            if(n%i==0)
             {
-                System.out.println(i);
+                prime=false;
+                break;
             }
         }
+        if(prime)
+        {
+            return true;
+        }
+        return false;
     }
 }
